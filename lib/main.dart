@@ -54,7 +54,7 @@ class MyApp extends StatelessWidget {
         '/register': (context) => RegisterScreen(), // ✅ tambahkan ini
         '/dashboard': (context) => DashboardScreen(), // ✅ tambahkan ini
         '/login': (context) => LoginScreen(), // ✅ tambahkan ini
-        'riwayat': (context) => RiwayatScreen(), // ✅ tambahkan ini
+        '/riwayat': (context) => RiwayatScreen(), // ✅ tambahkan ini
       },
     );
   }
